@@ -1,6 +1,6 @@
 # RNN with Particle Flow for Probabilistic Spatio-temporal Forecasting
 
-This is an implementation of the methodology in "RNN with Particle Flow for Probabilistic Spatio-temporal Forecasting"
+This is an implementation of the methodology in "RNN with Particle Flow for Probabilistic Spatio-temporal Forecasting".
 You can 
 - reproduce the results for AGCGRU+flow, DCGRU+flow, and GRU+flow algorithms in our paper and supplementary material with the checkpoints of our trained model.
 - re-train the models from scratch with the same hyperparameter setting and evaluate.
@@ -76,3 +76,17 @@ The code has been tested running under ```python 3.7.0``` with the following pac
 - ```scipy==1.5.4```
 
 In addition, for running with gpu, the code has been tested with ```CUDA 10.0``` and ```cuDNN 7.4```.
+
+## Cite
+
+Please cite our paper if you use this code in your own work:
+
+```
+@inproceedings{pal2021, 
+author={S. Pal and L. Ma and Y. Zhang and M. Coates}, 
+booktitle={Proc. Int. Conf. Machine Learning}, 
+title={{RNN} with Particle Flow for Probabilistic Spatio-temporal Forecasting},
+month={Jul.},
+year={2021},
+address={Virtual Conference}}
+```
