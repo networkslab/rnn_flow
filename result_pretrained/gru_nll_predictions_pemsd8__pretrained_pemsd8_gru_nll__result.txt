@@ -1,0 +1,12 @@
+Rnn_type: gru   Cost: nll   Dataset: pemsd8
+-------------------------------
+Metrics & MAE & MAPE & RMSE
+Horizon-2 & 1.28  & 2.55  & 2.71
+Horizon-5 & 1.64  & 3.45  & 3.61
+Horizon-8 & 1.88  & 4.05  & 4.15
+Horizon-11 & 2.07  & 4.51  & 4.54-------------------------------
+Metrics & CRPS & P10QL & P90QL
+Horizon-2& 0.95   & 1.12   & 0.94
+Horizon-5& 1.23   & 1.52   & 1.18
+Horizon-8& 1.42   & 1.80   & 1.33
+Horizon-11& 1.57   & 2.04   & 1.44

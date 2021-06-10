@@ -1,0 +1,12 @@
+Rnn_type: dcgru   Cost: mae   Dataset: pemsd8
+-------------------------------
+Metrics & MAE & MAPE & RMSE
+Horizon-2 & 1.17  & 2.35  & 2.64
+Horizon-5 & 1.44  & 3.12  & 3.54
+Horizon-8 & 1.58  & 3.57  & 4.00
+Horizon-11 & 1.70  & 3.87  & 4.28-------------------------------
+Metrics & CRPS & P10QL & P90QL
+Horizon-2& 1.13   & 1.94   & 1.50
+Horizon-5& 1.39   & 2.49   & 1.75
+Horizon-8& 1.53   & 2.80   & 1.88
+Horizon-11& 1.64   & 3.04   & 1.97
