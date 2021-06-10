@@ -2,7 +2,7 @@
 
 This is an implementation of the methodology in "RNN with Particle Flow for Probabilistic Spatio-temporal Forecasting".
 
-![](https://github.com/networkslab/rnn_flow/blob/master/ICML_final_overall_architecture.png)
+![](ICML_final_overall_architecture.png)
 
 You can 
 - reproduce the results for AGCGRU+flow, DCGRU+flow, and GRU+flow algorithms in our paper and supplementary material with the checkpoints of our trained model.
