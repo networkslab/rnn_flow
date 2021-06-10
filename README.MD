@@ -5,18 +5,18 @@ This is an implementation of the methodology in "RNN with Particle Flow for Prob
 ![](ICML_final_overall_architecture.png)
 
 You can 
-- reproduce the results for AGCGRU+flow, DCGRU+flow, and GRU+flow algorithms in our paper and supplementary material with the checkpoints of our trained model.
-- re-train the models from scratch with the same hyperparameter setting and evaluate.
+- reproduce the results for AGCGRU+flow, DCGRU+flow, and GRU+flow algorithms in our paper and supplementary material with the checkpoints of our trained models.
+- re-train the models with the same hyperparameter setting and evaluate the forecasts.
 
 &nbsp;
 &nbsp;
 &nbsp;
 
 ---
-## To reproduce the results in the paper with pre-trained checkpoints
+## To reproduce the results in the paper with the pre-trained checkpoints
 
 1. download the preprocessed datasets and checkpoints from ```https://drive.google.com/file/d/1tnaTTBVxUOdSpc5hxYUpCqUriYVVr5BP/view?usp=sharing``` 
-2. decompress the downloaded zip file inside the folder ```rnn_flow```
+2. unzip the downloaded zip file inside the folder ```rnn_flow```
 3. run script ```python inference_for_dir.py --search_dir ckpt/pretrained --output_dir ./result_pretrained --gpu_id 0```
 
 &nbsp;
@@ -41,7 +41,7 @@ Note that:
 &nbsp;
 
 
-### Options of Setting
+### Settings
 ```--rnn_type```:
 - ```agcgru```
 - ```dcgru```
@@ -68,8 +68,8 @@ If the folders are changed, please make the arguments of ```train.py``` and ```i
 ----
 
 
-## Dependencies
-The code has been tested running under ```python 3.7.0``` with the following packages installed (along with their dependencies):
+## Requirements
+The code has been tested with ```python 3.7.0``` with the following packages installed (along with their dependencies):
 - ```tensorflow-gpu==1.15.0```
 - ```numpy==1.19.2```
 - ```networkx==2.5```
