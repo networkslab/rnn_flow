@@ -51,7 +51,7 @@ Note that:
 &nbsp;
 &nbsp;
 
-### Other Setting
+### Other Settings
 The adjacency matrices of the graphs of the datasets are stored in ```./data/sensor_graph``` (```--graph_dir```). 
 
 The model configs are stored in ```./data/model_config``` (```--config_dir```)
