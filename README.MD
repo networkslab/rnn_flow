@@ -15,7 +15,7 @@ You can
 ---
 ## To reproduce the results in the paper with the pre-trained checkpoints
 
-1. download the preprocessed datasets and checkpoints from ```https://drive.google.com/file/d/1tnaTTBVxUOdSpc5hxYUpCqUriYVVr5BP/view?usp=sharing``` 
+1. download the preprocessed datasets and checkpoints from [https://drive.google.com/file/d/1tnaTTBVxUOdSpc5hxYUpCqUriYVVr5BP/view?usp=sharing](https://drive.google.com/file/d/1tnaTTBVxUOdSpc5hxYUpCqUriYVVr5BP/view?usp=sharing)
 2. unzip the downloaded zip file inside the folder ```rnn_flow```
 3. run script ```python inference_for_dir.py --search_dir ckpt/pretrained --output_dir ./result_pretrained --gpu_id 0```
 
